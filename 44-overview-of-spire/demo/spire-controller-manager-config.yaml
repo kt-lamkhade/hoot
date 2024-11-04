@@ -17,7 +17,7 @@ data:
       resourceNamespace: spire
     # TODO: Update cluster name and trust domain here
     clusterName: kiran-2024-11-04-05-11.k8s.local
-    trustDomain: hoot.solo.io
+    trustDomain: hoots.io
     ignoreNamespaces:
       - kube-system
       - kube-public

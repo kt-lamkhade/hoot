@@ -102,7 +102,7 @@ data:
       bind_address = "0.0.0.0"
       bind_port = "8081"
       # TODO: Update the trust domain
-      trust_domain = "hoot.solo.io"
+      trust_domain = "hoots.io"
       data_dir = "/run/spire/server/data"
       log_level = "DEBUG"
       ca_key_type = "rsa-2048"
@@ -130,7 +130,7 @@ data:
         plugin_data {
           clusters = {
           # TODO: Update cluster name
-            "hoot-spire" = {
+            "kiran-2024-11-04-05-11.k8s.local" = {
               service_account_allow_list = ["spire:spire-agent"]
             }
           }
